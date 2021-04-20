@@ -1,0 +1,59 @@
+{
+  "uid" : "98c908960e5c6ade",
+  "name" : "test_add[minus]",
+  "fullName" : "test_parametrlze#test_add",
+  "historyId" : "2c6e7795bd5bfe8651cbefd6a0c25736",
+  "time" : {
+    "start" : 1618901205654,
+    "stop" : 1618901205654,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_parametrlze"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EAEO09U"
+  }, {
+    "name" : "thread",
+    "value" : "5580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_parametrlze"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "-1"
+  }, {
+    "name" : "b",
+    "value" : "-2"
+  }, {
+    "name" : "expected",
+    "value" : "-3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "98c908960e5c6ade.json",
+  "parameterValues" : [ "-1", "-2", "-3" ]
+}

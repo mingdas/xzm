@@ -1,0 +1,68 @@
+{
+  "uid" : "7d2cf9b5091ec55e",
+  "name" : "test_three",
+  "fullName" : "test_mark_study.Test_Demo2#test_three",
+  "historyId" : "d0603abf5d44504edca8f801f6750d23",
+  "time" : {
+    "start" : 1618901205545,
+    "stop" : 1618901205545,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0 == 2",
+  "statusTrace" : "self = <test_mark_study.Test_Demo2 object at 0x0000026780CCC788>\n\n    @pytest.mark.run(order=1)\n    @pytest.mark.smoke\n    @pytest.mark.demo\n    def test_three(self):\n        b = 2\n>       assert 0 == b #注意这个用例会失败\nE       assert 0 == 2\n\ntest_mark_study.py:20: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_mark_study"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Demo2"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EAEO09U"
+  }, {
+    "name" : "thread",
+    "value" : "5580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_mark_study"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=1)", "smoke", "demo" ]
+  },
+  "source" : "7d2cf9b5091ec55e.json",
+  "parameterValues" : [ ]
+}
